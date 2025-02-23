@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.list-group-item.completed {
+    background-color: #e9ecef;
+    text-decoration: line-through;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+.task-actions .btn-edit {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+.task-actions .btn-edit:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.edit-mode {
+    background-color: #fff3cd;
+}
